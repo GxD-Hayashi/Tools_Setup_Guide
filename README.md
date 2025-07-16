@@ -54,7 +54,7 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 リファレンスゲノムの表示には以下のファイル使用する。\
 　　/data1/home/geninus1/ncbiRefSeq.txt.gz \
 検体データの表示には以下のファイルを使用する。\
-　　/data1/data/result/eWES/<batch>/<sample ID>/Preprocessing/align/<sample ID>.tumour.recaled.bam \
+　　/data1/data/result/eWES/\<batch\>/\<sample ID\>/Preprocessing/align/\<sample ID\>.tumour.recaled.bam \
 IGVの操作方法については以下サイトの User Guide 項目を参照 \
 　　https://igv.org/doc/desktop/
 
