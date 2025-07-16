@@ -47,8 +47,9 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 1. Xmingのアイコンをダブルクリック（バックグランドで動作するため、デスクトップ上の変化はありません）
 2. FortiClient VPN を起動し、VPN接続を開始する。
 3. puttyのアイコンをダブルクリック
-4. 作成したセッションを選択し、開くボタンを押下。
-5. igv + Enter で起動する
+4. 作成したセッションを選択し、開くボタンを押下して起動。
+5. パスワードを入力
+6. igv + Enter で起動する
    
 リファレンスゲノムの表示には以下のファイル使用する。\
 　　/data1/home/geninus1/ncbiRefSeq.txt.gz \
