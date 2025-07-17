@@ -21,7 +21,7 @@ GxD環境におけるIGVのセットアップ方法。
 3. インストールディレクトリ（通常はそのままでOK）を指定。
 4. 最後に「Install」をクリックしてインストール。
 5. デスクトップのputtyアイコンをダブルクリックして起動する。
-6. ホスト名（またはIPアドレス）項目に \<username\>@192.168.9.100 を入力（usernameはIT担当に聞いてください）
+6. ホスト名（またはIPアドレス）項目に \<username\>@192.168.9.100 を入力（usernameはサーバ管理者に聞いてください）
   <p align="center">
     <img src="https://github.com/user-attachments/assets/bb5db04f-820c-4ef3-94cd-623edebbabe7" width="300">
   </p>
