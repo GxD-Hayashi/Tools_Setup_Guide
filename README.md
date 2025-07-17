@@ -42,7 +42,6 @@ GxD環境におけるIGVのセットアップ方法。
 ```
 singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/geninus_igv.sif igv
 ```
-
 ## IGVの起動
 1. Xmingのアイコンをダブルクリック（バックグランドで動作するため、デスクトップ上の変化はありません）
 2. FortiClient VPN を起動し、VPN接続を開始する。
@@ -58,3 +57,12 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 IGVの操作方法については以下サイトの User Guide 項目を参照 \
 　　https://igv.org/doc/desktop/
 
+## WinSCP のインストールと設定 ※必須ではありません
+　　https://winscp.net/eng/download.php
+
+1. ダウンロードした .exe をダブルクリックしてインストーラを起動。
+2. セットアップウィザードに従い、次へを押していきます。
+3. インストールディレクトリ（通常はそのままでOK）を指定。
+4. 最後に「インストール」をクリックしてインストール。
+5. デスクトップのWinSCPアイコンをダブルクリック
+6. ホスト名: 192.168.9.100, ユーザ名: \<username\> を入力し、セッション名をつけて保存する。
