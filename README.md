@@ -20,7 +20,7 @@ GxD環境におけるIGVのセットアップ方法。
 2. セットアップウィザードに従い、次へを押していきます。
 3. インストールディレクトリ（通常はそのままでOK）を指定。
 4. 最後に「Install」をクリックしてインストール。
-5. デスクトップのputtyアイコンをダブルクリック
+5. デスクトップのputtyアイコンをダブルクリックして起動する。
 6. ホスト名（またはIPアドレス）項目に \<username\>@192.168.9.100 を入力（usernameはIT担当に聞いてください）
   <p align="center">
     <img src="https://github.com/user-attachments/assets/bb5db04f-820c-4ef3-94cd-623edebbabe7" width="300">
@@ -57,12 +57,12 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 IGVの操作方法については以下サイトの User Guide 項目を参照 \
 　　https://igv.org/doc/desktop/
 
-## WinSCP のインストールと設定 ※必須ではありません
+## WinSCP のインストールと設定 ※必要に応じて実行
 　　https://winscp.net/eng/download.php
 
 1. ダウンロードした .exe をダブルクリックしてインストーラを起動。
 2. セットアップウィザードに従い、次へを押していきます。
 3. インストールディレクトリ（通常はそのままでOK）を指定。
 4. 最後に「インストール」をクリックしてインストール。
-5. デスクトップのWinSCPアイコンをダブルクリック
+5. デスクトップのWinSCPアイコンをダブルクリックして起動する。
 6. ホスト名: 192.168.9.100, ユーザ名: \<username\> を入力し、セッション名をつけて保存する。
