@@ -1,0 +1,18 @@
+{
+  "id": "GxD",
+  "name": "GxD Human (GRCh38)",
+  "fastaURL": "/data1/GxD_eWES/reference/fasta/GCA_000001405.15_GRCh38_Primary_Assembly.fa",
+  "indexURL": "/data1/GxD_eWES/reference/fasta/GCA_000001405.15_GRCh38_Primary_Assembly.fa.fai",
+  "chromSizesURL": "/data1/GxD_eWES/reference/fasta/chrom.sizes",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY,chrM",
+  "tracks": [
+    {
+      "name": "Refseq All",
+      "format": "refgene",
+      "url": "/data1/home/geninus1/ncbiRefSeq.txt.gz",
+      "indexed": false,
+      "order": 1000001,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+    }
+  ]
+}
