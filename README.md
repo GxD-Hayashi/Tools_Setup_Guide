@@ -55,11 +55,11 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 検体データの表示には以下のファイルを使用する。
 |解析種別 | type       | 解析フォルダの相対パス                                                                |
 |:-------:|:-----------|:--------------------------------------------------------------------------------------|
-|eWES     |align       |*/Preprocessing/align/\<sample ID\>.tumour.recaled.bam                                 |
-|WTS      |Expression  |*/Expression/STAR_align_exp/\<sample ID\>.Aligned.sortedByCoord.out.bam                |
-|WTS      |STAR-SEQR   |*/Fusion/STAR-SEQR/\<sample ID\>_STAR-SEQR/\<sample ID\>.Aligned.sortedByCoord.out.bam |
-|WTS      |STAR-Fusion |*/Fusion/STAR-Fusion/STAR_align_starfu/\<sample ID\>.star-fusion.Aligned.out.sam       |
-|WTS      |arriba      |*/Fusion/Arriba/STAR_align_arriba/\<sample ID\>.Aligned.out.bam                        |
+|eWES     |align       |*/\<sample ID\>/Preprocessing/align/\<sample ID\>.tumour.recaled.bam                                 |
+|WTS      |Expression  |*/\<sample ID\>/Expression/STAR_align_exp/\<sample ID\>.Aligned.sortedByCoord.out.bam                |
+|WTS      |STAR-SEQR   |*/\<sample ID\>/Fusion/STAR-SEQR/\<sample ID\>_STAR-SEQR/\<sample ID\>.Aligned.sortedByCoord.out.bam |
+|WTS      |STAR-Fusion |*/\<sample ID\>/Fusion/STAR-Fusion/STAR_align_starfu/\<sample ID\>.star-fusion.Aligned.out.sam       |
+|WTS      |arriba      |*/\<sample ID\>/Fusion/Arriba/STAR_align_arriba/\<sample ID\>.Aligned.out.bam                        |
   
 　　※ WTS(Expression), WTS(STAR-SEQR) をロードする場合は *.bam.bai ファイルを作成する。\
 　　※ WTS(STAR-Fusion)をロードする場合は ソートとbamへの変換を行った後、 *.bam.bai ファイルを作成する。\
