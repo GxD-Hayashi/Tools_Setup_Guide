@@ -42,16 +42,15 @@ GxD環境におけるIGVのセットアップ方法。
 ```
 singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/geninus_igv.sif igv
 ```
+12. ~/igv/genomes/ の直下に GxD.json を格納する。
 ## IGVの起動
 1. Xmingのアイコンをダブルクリック（バックグランドで動作するため、デスクトップ上の変化はありません）
 2. FortiClient VPN を起動し、VPN接続を開始する。
 3. puttyのアイコンをダブルクリック
 4. 作成したセッションを選択し、開くボタンを押下。
 5. パスワードを入力してログイン。
-6. igv + Enter でIGVを起動する
-   
-リファレンスゲノムの表示には以下のファイル使用する。\
-　　/data1/home/geninus1/ncbiRefSeq.txt.gz 
+6. igv + Enter でIGVを起動する。
+7. 上部左端のドロップダウンリストから「GxD Human（GRCh38）」を選択してリファレンスを表示する。
 
 検体データの表示には以下のファイルを使用する。
 |解析種別 | type       | 解析フォルダの相対パス                                                                |
