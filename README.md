@@ -10,7 +10,7 @@ GxD環境におけるIGVのセットアップ方法。
 3. インストールディレクトリ（通常はそのままでOK）を指定。
 4. 「Start Menu Folder」などのオプションを選択する。\
   （Create a desktop icon for XmingのチェックボックスをONにする。他はそのままでOK。）
-6. 最後に「Install」をクリックしてインストール。
+6. 最後に「Install」をクリックしてインストールを完了する。
 
 ## putty のインストールと設定
 　　https://www.ranvis.com/putty ※日本語版 \
@@ -43,10 +43,11 @@ GxD環境におけるIGVのセットアップ方法。
 singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/geninus_igv.sif igv
 ```
 12. ~/igv/genomes/ の直下に GxD.json を格納する。
+
 ## IGVの起動
-1. Xmingのアイコンをダブルクリック（バックグランドで動作するため、デスクトップ上の変化はありません）
+1. Xmingのアイコンをダブルクリックする。（バックグランドで動作するため、デスクトップ上の変化はありません）
 2. FortiClient VPN を起動し、VPN接続を開始する。
-3. puttyのアイコンをダブルクリック
+3. puttyのアイコンをダブルクリックしてputtyを起動する
 4. 作成したセッションを選択し、開くボタンを押下。
 5. パスワードを入力してログイン。
 6. igv + Enter でIGVを起動する。
@@ -60,10 +61,10 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 |WTS      |STAR-SEQR   |*/\<sample ID\>/Fusion/STAR-SEQR/\<sample ID\>_STAR-SEQR/\<sample ID\>.Aligned.sortedByCoord.out.bam |
 |WTS      |STAR-Fusion |*/\<sample ID\>/Fusion/STAR-Fusion/STAR_align_starfu/\<sample ID\>.star-fusion.Aligned.out.sam       |
 |WTS      |arriba      |*/\<sample ID\>/Fusion/Arriba/STAR_align_arriba/\<sample ID\>.Aligned.out.bam                        |
-  
+
 　　※ WTS(Expression), WTS(STAR-SEQR) をロードする場合は *.bam.bai ファイルを作成する。\
-　　※ WTS(STAR-Fusion)をロードする場合は ソートとbamへの変換を行った後、 *.bam.bai ファイルを作成する。\
-　　※ WTS(arriba)をロードする場合は sorted.bamを作成した後、 *.bam.bai ファイルを作成する。
+　　※ WTS(STAR-Fusion)をロードする場合は ソートして変換したbamを作成し、 *.bam.bai ファイルを作成する。\
+　　※ WTS(arriba)をロードする場合はソートしたbamを作成し、 *.bam.bai ファイルを作成する。
 
 IGVの操作方法については以下サイトの User Guide 項目を参照 \
 　　https://igv.org/doc/desktop/
