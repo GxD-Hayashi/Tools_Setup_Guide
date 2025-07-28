@@ -28,7 +28,7 @@ GxD環境におけるIGVのセットアップ方法。
   
 7. 左側のカテゴリ>接続>SSH>X11 を選択し、「X11転送を有効にする」のチェックボックスをONにする。
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/a9534c83-bf7b-400f-aeac-4a51013b35de" width="300">
+    <img src="https://github.com/user-attachments/assets/857b5ba7-4eda-4d31-8069-0e1174574ba4" width="300">
   </p>
   
 8. セッションに名前をつけて保存する。
