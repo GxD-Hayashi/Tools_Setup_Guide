@@ -63,7 +63,7 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 |WTS      |arriba      |*/\<sample ID\>/Fusion/Arriba/STAR_align_arriba/\<sample ID\>.Aligned.out.bam                        |
 
 　　※ WTS(Expression), WTS(STAR-SEQR) をロードする場合は *.bam.bai ファイルを作成する。\
-　　※ WTS(STAR-Fusion)をロードする場合は ソートして変換したbamを作成し、 *.bam.bai ファイルを作成する。\
+　　※ WTS(STAR-Fusion)をロードする場合は ソートして変換したbamを作成し、 *.bam.bai ファイルを作成する（一部の検体については、メモリ節約のためBAM変換のみ実施しています）\
 　　※ WTS(arriba)をロードする場合はソートしたbamを作成し、 *.bam.bai ファイルを作成する。
 
 IGVの操作方法については以下サイトの User Guide 項目を参照 \
