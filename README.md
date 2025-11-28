@@ -1,5 +1,6 @@
 # IGV-setup
-GxD環境におけるIGVのセットアップ方法。
+GxD環境におけるIGVのセットアップ方法。\
+以下に示す手順は2025年12月時点のものです。状況に合わせて適宜変更してください。
 
 ## Xming のインストール
 　　https://sourceforge.net/projects/xming/  (ミラーサイト ※旧版) \
