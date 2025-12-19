@@ -48,7 +48,11 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 ```
 12. ~/igv/genomes/ の直下に GxD.json を格納する。
 
-### 【IGVの起動】
+<details>
+  <summary> 
+   【IGVの起動方法】
+  </summary>
+
 1. Xmingのアイコンをダブルクリックする。（バックグランドで動作するため、デスクトップ上の変化はありません）
 2. FortiClient VPN を起動し、VPN接続を開始する。
 3. puttyのアイコンをダブルクリックしてputtyを起動する
@@ -73,6 +77,31 @@ singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/g
 
 IGVの操作方法については以下サイトの User Guide 項目を参照 \
 　　https://igv.org/doc/desktop/
+
+</details>
+
+<details>
+  <summary> 
+   qstat コマンドについて
+  </summary>
+
+実行中のジョブを確認するコマンド qstat をよく使います。使用例は以下の通り。
+```
+qstat -u "*"  # 全ユーザーのジョブを表示
+qstat -f      # ノード毎に分けて表示
+qstat -r      # ジョブの詳細を表示
+```
+以下のように複数のオプションを組み合わせて実行することもできます。
+```
+qstat -u "*" -f    #全ユーザーのジョブをノード毎に分けて表示
+```
+たくさんのジョブが実行中の時は、less コマンドと組み合わせて1画面ずつ表示させ、スペースキーや矢印キーでスクロールします。\
+/ で検索、-(ハイフン)キー＋nキーで行数を表示、qキーで終了します。
+```
+qstat -r | less
+```
+
+</details>
 
 ## WinSCP のインストールと設定
 　　https://winscp.net/eng/download.php
