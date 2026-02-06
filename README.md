@@ -134,6 +134,9 @@ qstat -r | grep Full | grep CD_ | less   # CD_から始まるジョブ(eWES解�
 8. 上部のタブから データベース > 新しい接続 を選択する。
 9. 「新しい接続タイプを選択する」ウインドウが開くので、SQL > MariaDB を選択して「次へ」をクリックする。
 10. Server Host: 192.168.9.100, Port:3306, Database: gxd, ユーザー名: gxd_pipeline, パスワード: gw!2341234 を入力し「終了」をクリックする。
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/451a8e5b-8cfd-4123-879c-6768c95f4d78" width="450">
+  </p>
 11. 「データベースナビゲータ」タブに gxd が表示されていればOK.
 
 **※ DBeaverでのデータベース操作(データの削除・変更)については、細心の注意を払ってください**
