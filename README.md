@@ -55,11 +55,11 @@ GxD環境における各ツールのセットアップ方法。\
   
 9. 作成したセッションを選択し、開くボタンを押下
 10. 開かれたウィンドウでパスワードを入力する。（パスワードはITチームのサーバ管理者に聞いてください）
-11. ~/bin/ の下に以下記載したテキストファイル igv を作成して保存し、実行権限を付与する。
+11. ~/bin/ の下に以下記載したテキストファイル igv を作成して保存し、実行権限を付与する。※ gxd_pipeline, guest_user ユーザーは設定済み
 ```
 singularity exec --disable-cache -B /data1 /data1/GxD_eWES/Pipeline/containers/geninus_igv.sif igv
 ```
-12. ~/igv/genomes/ の直下に GxD.json を格納する。
+12. ~/igv/genomes/ の直下に GxD.json を格納する。※ gxd_pipeline, guest_user ユーザーは設定済み
 
 <details>
   <summary> 
